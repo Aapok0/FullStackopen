@@ -8,8 +8,8 @@ This part...
 ## (d) [A more complex state, debugging React apps](https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps) : 1.6 - 1.14
 This part...
 ## Exercises
-- [ ] 1.1 - 1.5: [Course information]()
-    - [ ] 1.1: [Step 1]()
+- [ ] 1.1 - 1.5: [Course information](https://github.com/Aapok0/FullStackOpen/tree/main/Part1/1.1-1.5_courseinfo)
+    - [X] 1.1: [Step 1](https://github.com/Aapok0/FullStackOpen/commit/2751d554ecfeac71515c24e1066a9c8b220ac6f6)
     - [ ] 1.2: [Step 2]()
     - [ ] 1.3: [Step 3]()
     - [ ] 1.4: [Step 4]()

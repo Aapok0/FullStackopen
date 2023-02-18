@@ -3,7 +3,7 @@
 ## [Part 0](https://github.com/Aapok0/FullStackopen/tree/main/Part0)
 - General info about the course
 - Fundamentals of Web apps
-## [Part 1]()
+## [Part 1](https://github.com/Aapok0/FullStackOpen/tree/main/Part1)
 - Introduction to React
 - Javascript
 - Component state, event handlers
