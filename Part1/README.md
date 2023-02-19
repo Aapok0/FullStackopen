@@ -15,7 +15,7 @@ This part continues where the last one ended and goes into more complex states a
     - [X] 1.4: [Step 4](https://github.com/Aapok0/FullStackOpen/blob/e804b6127f3eec10326f5e3fcd1515607f7e059e/Part1/1.1-1.5_courseinfo/src/App.js)
     - [X] 1.5: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/main/Part1/1.1-1.5_courseinfo/src/App.js)
 - [ ] 1.6 - 1.11: [Unicafe customer feedback](https://github.com/Aapok0/FullStackOpen/tree/main/Part1/1.6-1.11_unicafe)
-    - [ ] 1.6: [Step 1]()
+    - [X] 1.6: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/7dfce27d906b8669743ec60548b0aa3f3aeebdc4/Part1/1.6-1.11_unicafe/src/App.js)
     - [ ] 1.7: [Step 2]()
     - [ ] 1.8: [Step 3]()
     - [ ] 1.9: [Step 4]()
