@@ -20,7 +20,7 @@ This part continues where the last one ended and goes into more complex states a
     - [X] 1.8: [Step 3](https://github.com/Aapok0/FullStackOpen/blob/e7ef82bf79babb586e091d555bae3ad33c45a98a/Part1/1.6-1.11_unicafe/src/App.js)
     - [X] 1.9: [Step 4](https://github.com/Aapok0/FullStackOpen/blob/2da2042a00011c94454776cc66141ef03eb2cd02/Part1/1.6-1.11_unicafe/src/App.js)
     - [X] 1.10: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/c28c5f96288c3cbed87a98555c3dd4f0ebc57b30/Part1/1.6-1.11_unicafe/src/App.js)
-    - [X] 1.11: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/e0ebb52d6290d96a03ccefc9d685effab75229a6/Part1/1.6-1.11_unicafe/src/App.js)
+    - [X] 1.11: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/main/Part1/1.6-1.11_unicafe/src/App.js)
 - [ ] 1.12 - 1.14: [Random anecdotes]()
     - [ ] 1.12: [Step 1]()
     - [ ] 1.13: [Step 2]()
