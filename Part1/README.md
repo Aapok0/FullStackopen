@@ -6,7 +6,7 @@ Next the material goes through some basic syntax and uses of JavaScript, which i
 ## (c) [Component state, event handlers](https://fullstackopen.com/en/part1/component_state_event_handlers)
 The course returns to React and dives deeper into it with stateful components and event handlers by modifying the app code from part a meant for learning.
 ## (d) [A more complex state, debugging React apps](https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps) : 1.6 - 1.14
-This part continues where the last one ended and goes into more complex states and teaches how to debug React apps with best practices.
+This part continues where the last one ended and goes into more complex states and teaches how to debug React apps with best practices. Exercises involved using complex states in numerous ways.
 ## Exercises
 - [X] 1.1 - 1.5: [Course information](https://github.com/Aapok0/FullStackOpen/tree/main/Part1/1.1-1.5_courseinfo)
     - [X] 1.1: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/2751d554ecfeac71515c24e1066a9c8b220ac6f6/Part1/1.1-1.5_courseinfo/src/App.js)
@@ -21,7 +21,7 @@ This part continues where the last one ended and goes into more complex states a
     - [X] 1.9: [Step 4](https://github.com/Aapok0/FullStackOpen/blob/2da2042a00011c94454776cc66141ef03eb2cd02/Part1/1.6-1.11_unicafe/src/App.js)
     - [X] 1.10: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/c28c5f96288c3cbed87a98555c3dd4f0ebc57b30/Part1/1.6-1.11_unicafe/src/App.js)
     - [X] 1.11: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/main/Part1/1.6-1.11_unicafe/src/App.js)
-- [ ] 1.12 - 1.14: [Random anecdotes]()
-    - [ ] 1.12: [Step 1]()
-    - [ ] 1.13: [Step 2]()
-    - [ ] 1.14: [Step 3]()
+- [X] 1.12 - 1.14: [Random anecdotes](https://github.com/Aapok0/FullStackOpen/tree/main/Part1/1.12-1.14_anecdotes)
+    - [X] 1.12: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/ec77e0c61ef9f53fb32a1b131c2cc6d24805b34b/Part1/1.12-1.14_anecdotes/src/App.js)
+    - [X] 1.13: [Step 2](https://github.com/Aapok0/FullStackOpen/blob/a2442613bab3ed78c14cddcaeedf04b8aa64ce3a/Part1/1.12-1.14_anecdotes/src/App.js)
+    - [X] 1.14: [Step 3](https://github.com/Aapok0/FullStackOpen/blob/main/Part1/1.12-1.14_anecdotes/src/App.js)
