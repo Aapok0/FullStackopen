@@ -1,4 +1,4 @@
-# Part 1
+# Part 2
 
 ## (a) [Rendering a collection, module](https://fullstackopen.com/en/part2/rendering_a_collection_modules) - 2.1 - 2.5
 
@@ -22,8 +22,8 @@ Text here...
 
 ## Exercises
 
-- [ ] 2.1 - 2.5: [Course information]() - [steps 1-5](https://github.com/Aapok0/FullStackOpen/tree/main/Part1#exercises)
-  - [ ] 2.1: [Step 6]()
+- [ ] 2.1 - 2.5: [Course information](https://github.com/Aapok0/FullStackOpen/tree/main/Part2/2.1-2.5_courseinfo) - [steps 1-5](https://github.com/Aapok0/FullStackOpen/tree/main/Part1#exercises)
+  - [X] 2.1: [Step 6](https://github.com/Aapok0/FullStackOpen/blob/162e4a28e41517cefa44f55f8cbd14122f1b3cb1/Part2/2.1-2.5_courseinfo/src/App.js)
   - [ ] 2.2: [Step 7]()
     - [ ] 2.3: [Step 8]()
     - [ ] 2.4: [Step 9]()

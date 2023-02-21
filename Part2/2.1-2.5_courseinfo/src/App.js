@@ -1,19 +1,16 @@
-/* const Total = (props) => {
-  return (
-    <p>
-      Number of exercises {props.course.parts[0].exercises + props.course.parts[1].exercises + props.course.parts[2].exercises}
-    </p>
-  )
-} */
+const Total = ({exercises}) => <b>Number of exercises {exercises[0] + exercises[1] + exercises[2]}</b>
 
 const Part = ({name, exercises}) => <p>{name} {exercises}</p>
 
 const Content = ({parts}) => {
+  const exercises = parts.map(part => part.exercises)
+
   return (
     <>
       <Part name={parts[0].name} exercises={parts[0].exercises} />
       <Part name={parts[1].name} exercises={parts[1].exercises} />
       <Part name={parts[2].name} exercises={parts[2].exercises} />
+      <Total exercises={exercises} />
     </>
   )
 }

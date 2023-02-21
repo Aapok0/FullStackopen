@@ -14,7 +14,7 @@ Helsinki open university course to learn modern web full stack web development u
 - Component state, event handlers
 - A more complex state, debugging React apps
 
-## [Part 2]()
+## [Part 2](https://github.com/Aapok0/FullStackOpen/tree/main/Part2)
 
 - Rendering a collection, module
 - Forms
