@@ -1,4 +1,8 @@
-const Total = ({exercises}) => <b>Number of exercises {exercises[0] + exercises[1] + exercises[2]}</b>
+const Total = ({exercises}) => {
+  const total = exercises.reduce((sum, exercises) => sum + exercises, 0)
+
+  return <b>Number of exercises {total}</b>
+}
 
 const Part = ({name, exercises}) => <p>{name} {exercises}</p>
 
