@@ -2,7 +2,7 @@
 
 ## (a) [Rendering a collection, module](https://fullstackopen.com/en/part2/rendering_a_collection_modules) - 2.1 - 2.5
 
-Text here...
+Here the course goes through rendering arrays with functions and problems, that you might encounter doing so. Also the course talks about having components in separate modules. The exercises continue with the course information app started in part 1.
 
 ## (b) [Forms](https://fullstackopen.com/en/part2/forms) - 2.6 - 2.10
 
@@ -22,12 +22,12 @@ Text here...
 
 ## Exercises
 
-- [ ] 2.1 - 2.5: [Course information](https://github.com/Aapok0/FullStackOpen/tree/main/Part2/2.1-2.5_courseinfo) - [steps 1-5](https://github.com/Aapok0/FullStackOpen/tree/main/Part1#exercises)
+- [X] 2.1 - 2.5: [Course information](https://github.com/Aapok0/FullStackOpen/tree/main/Part2/2.1-2.5_courseinfo) - [steps 1-5](https://github.com/Aapok0/FullStackOpen/tree/main/Part1#exercises)
   - [X] 2.1: [Step 6](https://github.com/Aapok0/FullStackOpen/blob/162e4a28e41517cefa44f55f8cbd14122f1b3cb1/Part2/2.1-2.5_courseinfo/src/App.js)
   - [X] 2.2: [Step 7](https://github.com/Aapok0/FullStackOpen/blob/c16936d5512f4a9b6121d858ca2f0f4d1f89984d/Part2/2.1-2.5_courseinfo/src/App.js)
   - [X] 2.3: [Step 8](https://github.com/Aapok0/FullStackOpen/blob/1b0fc3941092fe6ea98f763f25a1bde8270ffdc9/Part2/2.1-2.5_courseinfo/src/App.js)
   - [X] 2.4: [Step 9](https://github.com/Aapok0/FullStackOpen/blob/1ec6639d2bc9b08458b25b785819e66a29932d51/Part2/2.1-2.5_courseinfo/src/App.js)
-  - [ ] 2.5: [Step 10]()
+  - [X] 2.5: [Step 10](https://github.com/Aapok0/FullStackOpen/blob/0e932010d36a6fb03b66978622146a8d04d1eba6/Part2/2.1-2.5_courseinfo/src/App.js)
 - [ ] 2.6 - 2.17:[The Phonebook]()
   - [ ] 2.6: [Step 1]()
   - [ ] 2.7: [Step 2]()

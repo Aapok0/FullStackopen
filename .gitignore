@@ -1,2 +1,5 @@
 # Ignore directory for tests and nonexercise programming
 /Tests/
+
+# Ignore node_modules directory
+/node_modules/

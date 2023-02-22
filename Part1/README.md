@@ -2,7 +2,7 @@
 
 ## (a) [Introduction to React](https://fullstackopen.com/en/part1/introduction_to_react) - 1.1 - 1.2
 
-This first part does an introduction to React by interacting with a freshly created React app (create-react-app). Exercises involve creating another app with simple HTML rendering.
+This first part does an introduction to React by interacting with a freshly created React app (create-react-app). Exercises involve creating another app with simple HTML rendering about course information.
 
 ## (b) [Javascript](https://fullstackopen.com/en/part1/java_script) - 1.3 - 1.5
 
@@ -14,7 +14,7 @@ The course returns to React and dives deeper into it with stateful components an
 
 ## (d) [A more complex state, debugging React apps](https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps) - 1.6 - 1.14
 
-This part continues where the last one ended and goes into more complex states and teaches how to debug React apps with best practices. Exercises involved using complex states in numerous ways.
+This part continues where the last one ended and goes into more complex states and teaches how to debug React apps with best practices. Exercises involve using complex states in numerous ways with a feedback and a random anecdote app.
 
 ## Exercises
 
