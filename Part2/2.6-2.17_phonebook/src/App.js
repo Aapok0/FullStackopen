@@ -22,12 +22,24 @@ const App = () => {
 
   const addPerson = (submit) => {
     submit.preventDefault()
-    const personObject = {
-      id: newId,
-      name: newName
-    }
+    
+    const checkName = persons.some(person => 
+      person.name.toLowerCase() === newName.toLowerCase()
+    )
 
-    setPersons(persons.concat(personObject))
+    if (newName.length === 0) {return;}
+    if (checkName === true) {
+      alert(`${newName} is already added to phonebook.`)
+    }
+    else {
+      const personObject = {
+        id: newId,
+        name: newName
+      }
+    
+      setPersons(persons.concat(personObject))
+    }
+    
     setNewId(newId + 1)
     setNewName('')
   }
