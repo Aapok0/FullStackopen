@@ -28,7 +28,7 @@ Text here...
   - [X] 2.3: [Step 8](https://github.com/Aapok0/FullStackOpen/blob/1b0fc3941092fe6ea98f763f25a1bde8270ffdc9/Part2/2.1-2.5_courseinfo/src/App.js)
   - [X] 2.4: [Step 9](https://github.com/Aapok0/FullStackOpen/blob/1ec6639d2bc9b08458b25b785819e66a29932d51/Part2/2.1-2.5_courseinfo/src/App.js)
   - [X] 2.5: [Step 10](https://github.com/Aapok0/FullStackOpen/blob/0e932010d36a6fb03b66978622146a8d04d1eba6/Part2/2.1-2.5_courseinfo/src/App.js)
-- [ ] 2.6 - 2.17:[The Phonebook]()
+- [ ] 2.6 - 2.17:[The Phonebook](https://github.com/Aapok0/FullStackOpen/tree/main/Part2/2.6-2.17_phonebook)
   - [ ] 2.6: [Step 1]()
   - [ ] 2.7: [Step 2]()
   - [ ] 2.8: [Step 3]()
