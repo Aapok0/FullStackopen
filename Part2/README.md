@@ -30,7 +30,7 @@ Text here...
   - [X] 2.5: [Step 10](https://github.com/Aapok0/FullStackOpen/blob/0e932010d36a6fb03b66978622146a8d04d1eba6/Part2/2.1-2.5_courseinfo/src/App.js)
 - [ ] 2.6 - 2.17:[The Phonebook](https://github.com/Aapok0/FullStackOpen/tree/main/Part2/2.6-2.17_phonebook)
   - [X] 2.6: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/92c346abfd95e1be7b321934d9d24a9238ac23fc/Part2/2.6-2.17_phonebook/src/App.js)
-  - [ ] 2.7: [Step 2]()
+  - [X] 2.7: [Step 2](https://github.com/Aapok0/FullStackOpen/blob/8fb90e89830b80e616f563fef1c2355b1e92ac03/Part2/2.6-2.17_phonebook/src/App.js)
   - [ ] 2.8: [Step 3]()
   - [ ] 2.9: [Step 4]()
   - [ ] 2.10: [Step 5]()
