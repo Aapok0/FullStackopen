@@ -10,7 +10,7 @@ The example app from part a is further developed with forms. The part goes throu
 
 ## (c) [Getting data from server](https://fullstackopen.com/en/part2/getting_data_from_server) - 2.11
 
-Text here...
+The course moves closer to full stack development by teaching about json server to act as the place to store information and to fetch it. This is to get familiar with back end work locally. The one exercise is to implement what was taught to the phonebook app.
 
 ## (d) [Altering data in server](https://fullstackopen.com/en/part2/altering_data_in_server) - 2.12 - 2.15
 
@@ -33,7 +33,7 @@ Text here...
   - [X] 2.7: [Step 2](https://github.com/Aapok0/FullStackOpen/blob/8fb90e89830b80e616f563fef1c2355b1e92ac03/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.8: [Step 3](https://github.com/Aapok0/FullStackOpen/blob/1888b002520ef93ae6b9b439bfbcf7b1696afa40/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.9: [Step 4](https://github.com/Aapok0/FullStackOpen/blob/98a1d927d8285543868118f7fb047866e8b57c8b/Part2/2.6-2.17_phonebook/src/App.js)
-  - [ ] 2.10: [Step 5]()
+  - [X] 2.10: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/4fb7cc79dbfed926b83b9d30db5f2f524456da7e/Part2/2.6-2.17_phonebook/src/App.js)
   - [ ] 2.11: [Step 6]()
   - [ ] 2.12: [Step 7]()
   - [ ] 2.13: [Step 8]()
