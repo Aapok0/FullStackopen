@@ -14,7 +14,7 @@ The course moves closer to full stack development by teaching about json server 
 
 ## (d) [Altering data in server](https://fullstackopen.com/en/part2/altering_data_in_server) - 2.12 - 2.15
 
-Text here...
+Exploring the local server continues with sending data to it and changing data inside. Error situations are also touched on briefly. Exercises involve developing the phonebook further with the local server.
 
 ## (e) [Adding styles to React app](https://fullstackopen.com/en/part2/adding_styles_to_react_app) - 2.16 - 2.20
 
@@ -34,7 +34,7 @@ Text here...
   - [X] 2.8: [Step 3](https://github.com/Aapok0/FullStackOpen/blob/1888b002520ef93ae6b9b439bfbcf7b1696afa40/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.9: [Step 4](https://github.com/Aapok0/FullStackOpen/blob/98a1d927d8285543868118f7fb047866e8b57c8b/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.10: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/4fb7cc79dbfed926b83b9d30db5f2f524456da7e/Part2/2.6-2.17_phonebook/src/App.js)
-  - [ ] 2.11: [Step 6]()
+  - [X] 2.11: [Step 6](https://github.com/Aapok0/FullStackOpen/blob/1a76b13dc9bf449847344254f1959bbabe573893/Part2/2.6-2.17_phonebook/src/App.js)
   - [ ] 2.12: [Step 7]()
   - [ ] 2.13: [Step 8]()
   - [ ] 2.14: [Step 9]()

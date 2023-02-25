@@ -54,7 +54,7 @@ const Persons = ({persons, filter}) => {
 const App = () => {
   const [persons, setPersons] = useState([])
   const [filter, setFilter] = useState('')
-  const [newId, setNewId] = useState(5)
+  /* const [newId, setNewId] = useState(5) */
   const [newName, setNewName] = useState('')
   const [newNumber, setNewNumber] = useState('')
 
@@ -77,15 +77,17 @@ const App = () => {
     }
     else {
       const personObject = {
-        id: newId,
+        /* id: newId, */
         name: newName,
         number: newNumber
       }
-    
-      setPersons(persons.concat(personObject))
+      
+      axios
+        .post('http://localhost:3001/persons', personObject)
+        .then(response => setPersons(persons.concat(response.data)))
     }
     
-    setNewId(newId + 1)
+    /* setNewId(newId + 1) */
     setNewName('')
     setNewNumber('')
   }
