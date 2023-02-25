@@ -1,5 +1,38 @@
 import { useState } from 'react'
 
+const Filter = (props) => {
+  return (
+    <div>
+      Filter people: <input 
+        value={props.filter}
+        onChange={props.handleFilterChange}
+      />
+    </div>
+  )
+}
+
+const PersonForm = (props) => {
+  return (
+    <form onSubmit={props.addPerson}>
+      <div>
+        name: <input 
+        value={props.newName}
+        onChange={props.handleNameChange}
+        />
+      </div>
+      <div>
+        number: <input 
+        value={props.newNumber}
+        onChange={props.handleNumberChange}
+        />
+      </div>
+      <div>
+        <button type="submit">add</button>
+      </div>
+    </form>
+  )
+}
+
 const Person = ({name, number, filter}) => {
   const inPhonebook = () => name.toLowerCase().includes(filter.toLowerCase())
 
@@ -70,30 +103,15 @@ const App = () => {
   return (
     <div>
       <h1>Phonebook</h1>
-        <div>
-          Filter people: <input 
-          value={filter}
-          onChange={handleFilterChange}
-          />
-        </div>
+      <Filter filter={filter} handleFilterChange={handleFilterChange} />
       <h2>Add a new number</h2>
-      <form onSubmit={addPerson}>
-        <div>
-          name: <input 
-          value={newName}
-          onChange={handleNameChange}
-          />
-        </div>
-        <div>
-          number: <input 
-          value={newNumber}
-          onChange={handleNumberChange}
-          />
-        </div>
-        <div>
-          <button type="submit">add</button>
-        </div>
-      </form>
+      <PersonForm 
+        newName={newName}
+        newNumber={newNumber}
+        handleNameChange={handleNameChange}
+        handleNumberChange={handleNumberChange}
+        addPerson={addPerson}
+      />
       <h2>Numbers</h2>
       <Persons persons={persons} filter={filter} />
     </div>

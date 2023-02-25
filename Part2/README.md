@@ -2,11 +2,11 @@
 
 ## (a) [Rendering a collection, module](https://fullstackopen.com/en/part2/rendering_a_collection_modules) - 2.1 - 2.5
 
-Here the course goes through rendering arrays with functions and problems, that you might encounter doing so. Also the course talks about having components in separate modules. The exercises continue with the course information app started in part 1.
+Here the course goes through rendering arrays with functions and problems, that you might encounter doing so with the help of an example app. Also the course talks about having components in separate modules. The exercises continue with the course information app started in part 1.
 
 ## (b) [Forms](https://fullstackopen.com/en/part2/forms) - 2.6 - 2.10
 
-Text here...
+The example app from part a is further developed with forms. The part goes through how to handle and use the values from a form. The exercises involve a new phonebook app, that utilizes forms to add numbers.
 
 ## (c) [Getting data from server](https://fullstackopen.com/en/part2/getting_data_from_server) - 2.11
 
@@ -32,7 +32,7 @@ Text here...
   - [X] 2.6: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/92c346abfd95e1be7b321934d9d24a9238ac23fc/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.7: [Step 2](https://github.com/Aapok0/FullStackOpen/blob/8fb90e89830b80e616f563fef1c2355b1e92ac03/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.8: [Step 3](https://github.com/Aapok0/FullStackOpen/blob/1888b002520ef93ae6b9b439bfbcf7b1696afa40/Part2/2.6-2.17_phonebook/src/App.js)
-  - [ ] 2.9: [Step 4]()
+  - [X] 2.9: [Step 4](https://github.com/Aapok0/FullStackOpen/blob/98a1d927d8285543868118f7fb047866e8b57c8b/Part2/2.6-2.17_phonebook/src/App.js)
   - [ ] 2.10: [Step 5]()
   - [ ] 2.11: [Step 6]()
   - [ ] 2.12: [Step 7]()
