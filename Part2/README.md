@@ -31,7 +31,7 @@ Text here...
 - [ ] 2.6 - 2.17:[The Phonebook](https://github.com/Aapok0/FullStackOpen/tree/main/Part2/2.6-2.17_phonebook)
   - [X] 2.6: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/92c346abfd95e1be7b321934d9d24a9238ac23fc/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.7: [Step 2](https://github.com/Aapok0/FullStackOpen/blob/8fb90e89830b80e616f563fef1c2355b1e92ac03/Part2/2.6-2.17_phonebook/src/App.js)
-  - [ ] 2.8: [Step 3]()
+  - [X] 2.8: [Step 3](https://github.com/Aapok0/FullStackOpen/blob/1888b002520ef93ae6b9b439bfbcf7b1696afa40/Part2/2.6-2.17_phonebook/src/App.js)
   - [ ] 2.9: [Step 4]()
   - [ ] 2.10: [Step 5]()
   - [ ] 2.11: [Step 6]()
