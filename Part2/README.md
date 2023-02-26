@@ -36,7 +36,7 @@ Text here...
   - [X] 2.10: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/4fb7cc79dbfed926b83b9d30db5f2f524456da7e/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.11: [Step 6](https://github.com/Aapok0/FullStackOpen/blob/1a76b13dc9bf449847344254f1959bbabe573893/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.12: [Step 7](https://github.com/Aapok0/FullStackOpen/blob/f70f7d70d133db684e58ae0a3573f52b04ce02b7/Part2/2.6-2.17_phonebook/src/App.js)
-  - [ ] 2.13: [Step 8]()
+  - [X] 2.13: [Step 8](https://github.com/Aapok0/FullStackOpen/blob/d96da2672b378ebdf6d9f30c031de21cfe663613/Part2/2.6-2.17_phonebook/src/App.js)
   - [ ] 2.14: [Step 9]()
   - [ ] 2.15: [Step 10]()
   - [ ] 2.16: [Step 11]()

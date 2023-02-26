@@ -34,19 +34,34 @@ const PersonForm = (props) => {
   )
 }
 
-const Person = ({name, number, filter}) => {
+const Person = ({id, name, number, filter, removePerson}) => {
   const inPhonebook = () => name.toLowerCase().includes(filter.toLowerCase())
 
-  if (filter.length === 0) return <p>{name} {number}</p>
-  else if (inPhonebook() === true) return <p>{name} {number}</p>
+  if (filter.length !== 0 && inPhonebook() === false) return;
+  
+  return (
+    <>
+      <p>
+        {name} {number}&nbsp;
+        <button onClick={() => removePerson(id, name)}>delete</button>
+      </p>
+    </>
+  )
 }
 
-const Persons = ({persons, filter}) => {
-  
-
+const Persons = ({persons, filter, removePerson}) => {
   return (
   <div>
-    {persons.map((person) => <Person key={person.id} name={person.name} number={person.number} filter={filter} />)}
+    {persons.map((person) => 
+      <Person
+      key={person.id}
+      id={person.id}
+      name={person.name}
+      number={person.number}
+      filter={filter}
+      removePerson={removePerson}
+      />
+    )}
   </div>
   )
 }
@@ -70,7 +85,7 @@ const App = () => {
       person.name.toLowerCase() === newName.toLowerCase()
     )
 
-    if (newName.length === 0 || newNumber.length === 0) return
+    if (newName.length === 0 || newNumber.length === 0) return;
     if (checkName === true) {
       alert(`${newName} is already added to phonebook.`)
     }
@@ -87,6 +102,14 @@ const App = () => {
           setNewName('')
           setNewNumber('')
         })
+    }
+  }
+
+  const removePerson = (id, name) => {
+    if (window.confirm(`Delete ${name}?`)) {
+      personService
+        .remove(id)
+        .then(setPersons(persons.filter((person) => person.id !== id)))
     }
   }
 
@@ -115,7 +138,11 @@ const App = () => {
         addPerson={addPerson}
       />
       <h2>Numbers</h2>
-      <Persons persons={persons} filter={filter} />
+      <Persons
+        persons={persons}
+        filter={filter}
+        removePerson={removePerson}
+      />
     </div>
   )
 }
