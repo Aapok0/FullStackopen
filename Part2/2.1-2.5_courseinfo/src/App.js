@@ -1,7 +1,7 @@
 import Course from './components/Course'
 
 const App = () => {
-  const courses = [
+  const courses = [ // course data to be rendered
     {
       name: 'Half Stack application development',
       id: 1,
@@ -46,6 +46,8 @@ const App = () => {
     }
   ]
 
+  /* App components and headings to be rendered in the browse
+      - map method adds a course component for every course in course data */
   return (
     <div>
       <h1>Web development curriculum</h1>
