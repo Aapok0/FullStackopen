@@ -76,7 +76,7 @@ const App = () => {
           .catch(error => { // catches error and shows its message to user
             setMessageType('error')
             if (error.response.status === 404) { // unique message to 404
-              setMessage(`Error 404 (Not Found): ${personObject.name} has already been removed from the phonebook`)
+              setMessage(`${error.message}: ${personObject.name} has already been removed from the phonebook`)
             }
             else {
               setMessage(error.message)
