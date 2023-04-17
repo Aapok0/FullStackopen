@@ -18,11 +18,16 @@ const Data = ({country}) => {
   )
 }
 
-const Country = ({name}) => {
-  return <p>{name}</p>
+const Country = ({country, setShownCountries}) => {
+  return (
+    <p>
+      {country.name.common}
+      <button onClick={() => setShownCountries([country])}>show</button>
+    </p>
+  )
 }
 
-const Countries = ({shownCountries}) => {
+const Countries = ({shownCountries, setShownCountries}) => {
   if (shownCountries === null) return null
   if (shownCountries.length < 1) return null
   else if (shownCountries.length > 10) {
@@ -36,7 +41,8 @@ const Countries = ({shownCountries}) => {
         {shownCountries.map(country =>
           <Country
             key={country.ccn3}
-            name={country.name.common}
+            country={country}
+            setShownCountries={setShownCountries}
           />
         )}
       </div>
@@ -76,12 +82,13 @@ const App = () => {
   }
 
   const handleSearchChange = (change) => {
-    setSearch(change.target.value)
-
+    let searchString = change.target.value
+    setSearch(searchString)
+    
     setShownCountries(
       allCountries
       .filter(country => country.name.common.toLowerCase()
-      .includes(search.toLowerCase()))
+      .includes(searchString.toLowerCase()))
     )
   }
 
@@ -92,7 +99,10 @@ const App = () => {
         search={search}
         handleSearchChange={handleSearchChange}
       />
-      <Countries shownCountries={shownCountries}/>
+      <Countries 
+        shownCountries={shownCountries}
+        setShownCountries={setShownCountries}
+      />
     </div>
   )
 }

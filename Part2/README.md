@@ -42,6 +42,6 @@ Text here...
   - [X] 2.16: [Step 11](https://github.com/Aapok0/FullStackOpen/commit/a64bf7f4de9c15ae9ce7b0fe7fd26868ad7c7acb)
   - [X] 2.17: [Step 12](https://github.com/Aapok0/FullStackOpen/blob/main/Part2/2.6-2.17_phonebook/src/App.js)
 - [ ] 2.18 - 2-20: [Data for countries](https://github.com/Aapok0/FullStackOpen/tree/main/Part2/2.18-2.20_countries)
-  - [ ] 2.18: [Step 1]()
-  - [ ] 2.19: [Step 2]()
+  - [X] 2.18: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/0e9755b13d8f560a66643d28de2cfb9921ff6a5f/Part2/2.18-2.20_countries/src/App.js)
+  - [X] 2.19: [Step 2]()
   - [ ] 2.20: [Step 3]()
