@@ -15,6 +15,7 @@ const App = () => {
   const [newName, setNewName] = useState('')
   const [newNumber, setNewNumber] = useState('')
   const [message, setMessage] = useState(null)
+  const [messageType, setMessageType] = useState('default')
 
   useEffect(() => { // as a side effect of initial render, fetches person objects from database to people array
     personService
@@ -48,6 +49,14 @@ const App = () => {
             setMessage(null)
           }, 6000)
         })
+        .catch(error => { // catches error and shows its message to user
+          setMessageType('error')
+          setMessage(error.message)
+          setTimeout(() => {
+            setMessageType('default')
+            setMessage(null)
+          }, 10000)
+        })
     }
     else { // just update the number, if person is already in the phonebook
       if (window.confirm(updateMessage)) { // confirms, if user really wants to update number
@@ -62,6 +71,20 @@ const App = () => {
             setTimeout(() => {
               setMessage(null)
             }, 6000)
+          
+          })
+          .catch(error => { // catches error and shows its message to user
+            setMessageType('error')
+            if (error.response.status === 404) { // unique message to 404
+              setMessage(`Error 404 (Not Found): ${personObject.name} has already been removed from the phonebook`)
+            }
+            else {
+              setMessage(error.message)
+            }
+            setTimeout(() => {
+              setMessageType('default')
+              setMessage(null)
+            }, 10000)
       })}
     }
     // sets input fields back to empty
@@ -80,6 +103,14 @@ const App = () => {
             setMessage(null)
           }, 6000)
         )
+        .catch(error => { // catches error and shows its message to user
+          setMessageType('error')
+          setMessage(error.message)
+          setTimeout(() => {
+            setMessageType('default')
+            setMessage(null)
+          }, 10000)
+        })
     }
   }
 
@@ -97,7 +128,10 @@ const App = () => {
   return ( // app components and headings to be rendered in the browser
     <div>
       <h1>Phonebook</h1>
-      <Notification message={message} />
+      <Notification 
+        message={message}
+        messageType={messageType}
+      />
       <Filter
         filter={filter}
         handleFilterChange={handleFilterChange}
