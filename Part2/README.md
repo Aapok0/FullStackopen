@@ -18,7 +18,7 @@ Exploring the local server continues with sending data to it and changing data i
 
 ## (e) [Adding styles to React app](https://fullstackopen.com/en/part2/adding_styles_to_react_app) - 2.16 - 2.20
 
-Text here...
+The theory portion talks about CSS styling and making error messages for the user. It also covers some extra remarks on useState and useEffect and possible errors with them. In the exercises this part's phonebook is finished with styling and messages for the user. A new Data for countries app is started. The app is supposed to retrieve data on countries and their capital's weather with API calls and present it.
 
 ## Exercises
 
@@ -39,7 +39,7 @@ Text here...
   - [X] 2.13: [Step 8](https://github.com/Aapok0/FullStackOpen/blob/d96da2672b378ebdf6d9f30c031de21cfe663613/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.14: [Step 9](https://github.com/Aapok0/FullStackOpen/blob/117b97123a887d8527b77a9de017b27f9a07814d/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.15: [Step 10](https://github.com/Aapok0/FullStackOpen/blob/50abeb66354dbeb4a7f8e93aabb8c8323d41fea4/Part2/2.6-2.17_phonebook/src/App.js)
-  - [X] 2.16: [Step 11](https://github.com/Aapok0/FullStackOpen/commit/a64bf7f4de9c15ae9ce7b0fe7fd26868ad7c7acb)
+  - [X] 2.16: [Step 11](https://github.com/Aapok0/FullStackOpen/blob/a64bf7f4de9c15ae9ce7b0fe7fd26868ad7c7acb/Part2/2.6-2.17_phonebook/src/App.js)
   - [X] 2.17: [Step 12](https://github.com/Aapok0/FullStackOpen/blob/main/Part2/2.6-2.17_phonebook/src/App.js)
 - [X] 2.18 - 2-20: [Data for countries](https://github.com/Aapok0/FullStackOpen/tree/main/Part2/2.18-2.20_countries)
   - [X] 2.18: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/0e9755b13d8f560a66643d28de2cfb9921ff6a5f/Part2/2.18-2.20_countries/src/App.js)

@@ -21,3 +21,10 @@ Helsinki open university course to learn modern web full stack web development u
 - Getting data from server
 - Altering data in server
 - Adding styles to React app
+
+## [Part 3](https://github.com/Aapok0/FullStackOpen/tree/main/Part3)
+
+- Node.js and Express
+- Deploying app to internet
+- Saving data to MongoDB
+- Validation and ESLint
