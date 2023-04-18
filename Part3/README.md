@@ -10,9 +10,9 @@
 
 ## Exercises
 
-- [ ] 3.1 - 3.22: [The Phonebook]()
-  - [ ] 3.1 - 3.10: [Backend]()
-    - [ ] 3.1: [Step 1]()
+- [ ] 3.1 - 3.22: [The Phonebook backend](https://github.com/Aapok0/FullStackOpen/tree/fe563bfbec722a9b7aa7c559ebc6a13492173606/Part3/3.1-3.22_phonebook)
+  - [ ] 3.1 - 3.10: Backend
+    - [X] 3.1: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/fe563bfbec722a9b7aa7c559ebc6a13492173606/Part3/3.1-3.22_phonebook/index.js)
     - [ ] 3.2: [Step 2]()
     - [ ] 3.3: [Step 3]()
     - [ ] 3.4: [Step 4]()

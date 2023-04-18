@@ -1,5 +1,8 @@
 # Ignore directory for tests and nonexercise programming
 /Tests/
 
-# Ignore node_modules directory
+# Ignore node_modules directory on any level
 node_modules/
+
+# Ignore .env file on any level
+.env
