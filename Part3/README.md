@@ -14,8 +14,8 @@
   - [ ] 3.1 - 3.10: Backend
     - [X] 3.1: [Step 1](https://github.com/Aapok0/FullStackOpen/blob/fe563bfbec722a9b7aa7c559ebc6a13492173606/Part3/3.1-3.22_phonebook/index.js)
     - [X] 3.2: [Step 2](https://github.com/Aapok0/FullStackOpen/blob/594cc8ae08bb147f50c6b08eb86cdc83611a3936/Part3/3.1-3.22_phonebook/index.js)
-    - [X] 3.3: [Step 3]()
-    - [ ] 3.4: [Step 4]()
+    - [X] 3.3: [Step 3](https://github.com/Aapok0/FullStackOpen/blob/d554d0b854d7ca3350186edc156b92ebdf018c87/Part3/3.1-3.22_phonebook/index.js)
+    - [X] 3.4: [Step 4]()
     - [ ] 3.5: [Step 5]()
     - [ ] 3.6: [Step 6]()
     - [ ] 3.7: [Step 7]()
