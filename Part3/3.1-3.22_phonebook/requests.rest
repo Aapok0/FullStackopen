@@ -4,8 +4,17 @@ GET http://localhost:3001/api/people
 ### Get info
 GET http://localhost:3001/info
 
-### Get one person
+### Get a person
 GET http://localhost:3001/api/people/5
 
-### Delete one person
+### Delete a person
 DELETE http://localhost:3001/api/people/1
+
+### Post a person
+POST http://localhost:3001/api/people
+Content-Type: application/json
+
+{
+  "name": "Test Testburg",
+  "number": "123123123"
+}
