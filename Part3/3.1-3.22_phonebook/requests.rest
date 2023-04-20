@@ -10,7 +10,7 @@ GET http://localhost:3001/api/people/5
 ### Delete a person
 DELETE http://localhost:3001/api/people/1
 
-### Post a person
+### Post a person / test post errors
 POST http://localhost:3001/api/people
 Content-Type: application/json
 

@@ -63,9 +63,23 @@ app.delete('/api/people/:id', (request, response) => {
 app.post('/api/people', (request, response) => {
   const body = request.body
 
-  if (!body.name || !body.number) {
+  if (!body.name) {
     return response.status(400).json({ 
-      error: 'name or number missing' 
+      error: 'name missing' 
+    })
+  }
+  else if (!body.number) {
+    return response.status(400).json({ 
+      error: 'number missing' 
+    })
+  }
+  
+  name_in_phonebook = people.some(
+    person => person.name.toLowerCase() === body.name.toLowerCase()
+  )
+  if (name_in_phonebook === true) {
+    return response.status(422).json({ 
+      error: 'name already exists in the phonebook' 
     })
   }
 
