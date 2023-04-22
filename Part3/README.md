@@ -17,7 +17,7 @@
     - [X] 3.3: [Step 3](https://github.com/Aapok0/FullStackOpen/blob/d554d0b854d7ca3350186edc156b92ebdf018c87/Part3/3.1-3.22_phonebook/index.js)
     - [X] 3.4: [Step 4](https://github.com/Aapok0/FullStackOpen/blob/a1006290245a0b08e251d33a32c8280f16369af8/Part3/3.1-3.22_phonebook/index.js)
     - [X] 3.5: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/01aad516be7801f9ab5211063c862edc67add8e4/Part3/3.1-3.22_phonebook/index.js)
-    - [X] 3.6: [Step 6]()
+    - [X] 3.6: [Step 6](https://github.com/Aapok0/FullStackOpen/blob/024324a20dd566d2072b0fc7774a4257b8dce138/Part3/3.1-3.22_phonebook/index.js)
     - [ ] 3.7: [Step 7]()
     - [ ] 3.8: [Step 8]()
     - [ ] 3.9: [Step 9]()
