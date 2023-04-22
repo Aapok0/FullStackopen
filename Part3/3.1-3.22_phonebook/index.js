@@ -3,13 +3,22 @@ const morgan = require('morgan')
 const app = express()
 
 app.use(express.json())
-app.use(morgan((tokens, req, res) => {
+
+morgan.token('post_content', (request) => {
+  return (
+    request.method === 'POST'
+      ? '- ' + JSON.stringify(request.body)
+      : null
+  )
+})
+app.use(morgan((tokens, request, response) => {
     return [
-      tokens.method(req, res),
-      tokens.url(req, res), 'status:',
-      tokens.status(req, res), 'content-length:',
-      tokens.res(req, res, 'content-length'), '-',
-      tokens['response-time'](req, res), 'ms'
+      tokens.method(request, response),
+      tokens.url(request, response), 'status:',
+      tokens.status(request, response), 'content-length:',
+      tokens.res(request, response, 'content-length'), '-',
+      tokens['response-time'](request, response), 'ms',
+      tokens.post_content(request)
     ].join(' ')
 }))
 
