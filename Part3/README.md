@@ -2,6 +2,8 @@
 
 ## (a) [Node.js and Express](https://fullstackopen.com/en/part3/node_js_and_express) - 3.1 - 3.8
 
+The course now focuses completely on backend. It starts with covering Node.js with Express library, basic REST API principles and handling different kinds of requests. It also covers making your own requests to test your backend. In the exercises these are used to start building a backend for the phonebook app started earlier. 
+
 ## (b) [Deploying app to internet](https://fullstackopen.com/en/part3/deploying_app_to_internet) - 3.9 - 3.11
 
 ## (c) [Saving data to MongoDB](https://fullstackopen.com/en/part3/saving_data_to_mongo_db) - 3.12 - 3.18
@@ -19,7 +21,7 @@
     - [X] 3.5: [Step 5](https://github.com/Aapok0/FullStackOpen/blob/01aad516be7801f9ab5211063c862edc67add8e4/Part3/3.1-3.22_phonebook/index.js)
     - [X] 3.6: [Step 6](https://github.com/Aapok0/FullStackOpen/blob/024324a20dd566d2072b0fc7774a4257b8dce138/Part3/3.1-3.22_phonebook/index.js)
     - [X] 3.7: [Step 7](https://github.com/Aapok0/FullStackOpen/blob/f3a84a19e323fd11020df2b1c4452048f6e3f43f/Part3/3.1-3.22_phonebook/index.js)
-    - [X] 3.8: [Step 8]()
+    - [X] 3.8: [Step 8](https://github.com/Aapok0/FullStackOpen/blob/733acad84e3629f9af4a875352fd604d1cff60a3/Part3/3.1-3.22_phonebook/index.js)
     - [ ] 3.9: [Step 9]()
     - [ ] 3.10: [Step 10]()
   - [ ] 3.11: [Full stack]()
