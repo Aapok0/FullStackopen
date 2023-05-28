@@ -1,5 +1,6 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/persons' // url to json server in port 3001
+// const baseUrl = 'http://localhost:3001/persons' // url to json server in port 3001
+const baseUrl = '/api/people' // path to backend
 
 const getAll = () => { // fetches all person objects from database and returns them as a response
 	const request = axios.get(baseUrl)

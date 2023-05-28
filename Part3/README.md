@@ -22,7 +22,7 @@ The course now focuses completely on backend. It starts with covering Node.js wi
     - [X] 3.6: [Step 6](https://github.com/Aapok0/FullStackOpen/blob/024324a20dd566d2072b0fc7774a4257b8dce138/Part3/3.1-3.22_phonebook/index.js)
     - [X] 3.7: [Step 7](https://github.com/Aapok0/FullStackOpen/blob/f3a84a19e323fd11020df2b1c4452048f6e3f43f/Part3/3.1-3.22_phonebook/index.js)
     - [X] 3.8: [Step 8](https://github.com/Aapok0/FullStackOpen/blob/733acad84e3629f9af4a875352fd604d1cff60a3/Part3/3.1-3.22_phonebook/index.js)
-    - [ ] 3.9: [Step 9]()
+    - [X] 3.9: [Step 9]() ([frontend]())
     - [ ] 3.10: [Step 10]()
   - [ ] 3.11: [Full stack]()
   - [ ] 3.12: [Command-line database]()
