@@ -5,6 +5,7 @@ const morgan = require('morgan')
 const app = express()
 
 app.use(express.json())
+app.use(express.static('build'))
 app.use(cors())
 
 morgan.token('post_content', (request) => {
@@ -15,35 +16,35 @@ morgan.token('post_content', (request) => {
   )
 })
 app.use(morgan((tokens, request, response) => {
-    return [
-      tokens.method(request, response),
-      tokens.url(request, response), 'status:',
-      tokens.status(request, response), 'content-length:',
-      tokens.res(request, response, 'content-length'), '-',
-      tokens['response-time'](request, response), 'ms',
-      tokens.post_content(request)
-    ].join(' ')
+  return [
+    tokens.method(request, response),
+    tokens.url(request, response), 'status:',
+    tokens.status(request, response), 'content-length:',
+    tokens.res(request, response, 'content-length'), '-',
+    tokens['response-time'](request, response), 'ms',
+    tokens.post_content(request)
+  ].join(' ')
 }))
 
 let people = [
-  { 
+  {
     "id": 1,
-    "name": "Arto Hellas", 
+    "name": "Arto Hellas",
     "number": "040-123456"
   },
-  { 
+  {
     "id": 2,
-    "name": "Ada Lovelace", 
+    "name": "Ada Lovelace",
     "number": "39-44-5323523"
   },
-  { 
+  {
     "id": 3,
-    "name": "Dan Abramov", 
+    "name": "Dan Abramov",
     "number": "12-43-234345"
   },
-  { 
+  {
     "id": 4,
-    "name": "Mary Poppendieck", 
+    "name": "Mary Poppendieck",
     "number": "39-23-6423122"
   }
 ]
@@ -66,7 +67,7 @@ app.get('/api/people', (request, response) => {
 app.get('/api/people/:id', (request, response) => {
   let id = Number(request.params.id)
   let person = people.find(person => id === person.id)
-  
+ 
   if (person) {
     response.json(person)
   }
@@ -86,22 +87,22 @@ app.post('/api/people', (request, response) => {
   const body = request.body
 
   if (!body.name) {
-    return response.status(400).json({ 
-      error: 'name missing' 
+    return response.status(400).json({
+      error: 'name missing'
     })
   }
   else if (!body.number) {
-    return response.status(400).json({ 
-      error: 'number missing' 
+    return response.status(400).json({
+      error: 'number missing'
     })
   }
-  
+ 
   name_in_phonebook = people.some(
     person => person.name.toLowerCase() === body.name.toLowerCase()
   )
   if (name_in_phonebook === true) {
-    return response.status(422).json({ 
-      error: 'name already exists in the phonebook' 
+    return response.status(422).json({
+      error: 'name already exists in the phonebook'
     })
   }
 
@@ -118,7 +119,7 @@ app.post('/api/people', (request, response) => {
   response.json(person)
 })
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
